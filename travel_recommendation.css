@@ -1,0 +1,141 @@
+/* Basic CSS for the navigation bar */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+  }
+  
+  nav ul {
+    list-style-type: none;
+    /* padding: 0; */
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+
+  nav h1 {
+    margin-bottom: 20px;
+    color: black;
+  }
+  
+  /* Basic CSS for the form elements */
+  body {
+    background-image: url('background_image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: Arial, sans-serif;
+    /* margin: 20px; */
+  }
+
+  .container {
+    margin-left: 200px;
+    margin-top: 100px;
+  }
+
+   #introduction {
+    width: 500px;
+    height:max-content;
+    color: white;
+    margin-bottom: 50px;
+    //border-style: dashed;
+    //background-color: grey;
+  }
+
+  #introduction p {
+    padding: 20px;
+    padding-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  #social {
+    float: left;
+    margin-left: 50px;
+    margin-right: 100px;
+    padding-top: 230px;
+    padding-bottom: 300px;
+  }
+  #social li {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    list-style: none;
+  }
+
+  h1 {
+    margin-bottom: 20px;
+    color: white;
+
+  }
+  
+  div {
+    margin-bottom: 10px;
+  }
+
+ 
+  
+  label {
+    display: inline-block;
+    width: 100px;
+  }
+  
+  input[type="text"],
+  input[type="number"],
+  select {
+    width: 200px;
+    padding: 5px;
+  }
+  
+  button {
+    padding: 7px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Basic CSS for the report section */
+  h2 {
+    margin-top: 30px;
+  }
+  
+  #report,#result {
+    padding: 10px;
+    max-width: 400px;
+    word-wrap: break-word;
+  }
+#result{
+  height: 400px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+  #result img{
+    width: 200px;
+    height: 100px;
+  }
+  
+
+
+  
